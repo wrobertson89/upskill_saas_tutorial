@@ -46,10 +46,21 @@ h1, h2, h3 {
 //
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
-  color:white;
+  color:#3bb300;
   &:hover {
-    color:white;
+    color:#cbb300;
     opacity:0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  backround-color:white
+}
+
+.navbar-default .navbar-toggle {
+  border:2px solid white;
+  &:hover, &:focus {
+    background-color: #ee9ca7;
   }
 }
 
